@@ -1,0 +1,20 @@
+Google's ARcore
+ ARcamera
+  -Shows user the Augmented Reality Experience
+  -Tracks Orientation and Position 
+  -Estimates Lighting conditions
+  -Manages Occlusion and Environment Depth calculation using pre-trained models 
+
+Google's Mediapipe Pose Tracking:
+ -Takes Camera Frame and uses Pose Tracking Graph/Model to estimate human pose
+
+OneEuroFilter
+ -Filters the Pose coordinates and estimated Depth to minimize Jitter and Lag
+
+Unity's Animation Rigging Package
+ -Used for Rigging the Virtual Cloth Model
+ -Manipulates the Virtual Cloth Rig at runtime according to the coordinates recieved using inverse kinematics and bone manipulation
+
+Virtual Cloth Model
+ -3D model(rigged) of a cloth consisting of base model + texture, of a specific size (small, medium, or large)
+
